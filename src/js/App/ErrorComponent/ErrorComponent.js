@@ -28,7 +28,7 @@ const ErrorComponent = (props) => {
       app: getUrl('app'),
       error: props.error,
       trace: props.errorInfo?.componentStack,
-    });
+    });setIsModalOpen
   }, []);
   return (
     <Bullseye className="ins-c-error-component">
@@ -47,7 +47,7 @@ const ErrorComponent = (props) => {
             <a href="https://status.redhat.com/" target="_blank" rel="noreferrer">
               status page
             </a>{' '}
-            for known outages.
+            for known outages.  If your browser is old, try updating to recent browser.
           </p>
           <Flex alignContent={{ default: 'alignContentCenter' }} direction={{ default: 'column' }}>
             <FlexItem>
@@ -82,7 +82,7 @@ const ErrorComponent = (props) => {
           />
         </EmptyStatePrimary>
       </EmptyState>
-    </Bullseye>
+    </Bullseye>setIsModalOpen
   );
 };
 
