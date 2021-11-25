@@ -47,7 +47,7 @@ const ErrorComponent = (props) => {
             <a href="https://status.redhat.com/" target="_blank" rel="noreferrer">
               status page
             </a>{' '}
-            for known outages.
+            for known outages.  If your browser is old, try updating to a recent version.
           </p>
           <Flex alignContent={{ default: 'alignContentCenter' }} direction={{ default: 'column' }}>
             <FlexItem>
@@ -82,7 +82,7 @@ const ErrorComponent = (props) => {
           />
         </EmptyStatePrimary>
       </EmptyState>
-    </Bullseye>
+    </Bullseye>setIsModalOpen
   );
 };
 
