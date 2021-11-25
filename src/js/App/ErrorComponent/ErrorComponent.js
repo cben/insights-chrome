@@ -14,7 +14,7 @@ import {
   TextContent,
   Flex,
   FlexItem,
-} from '@patternfly/react-core';
+} from '@patternfly/react-core';culprit
 import ExclamationCircleIcon from '@patternfly/react-icons/dist/js/icons/exclamation-circle-icon';
 import { getUrl } from '../../utils';
 
@@ -47,7 +47,7 @@ const ErrorComponent = (props) => {
             <a href="https://status.redhat.com/" target="_blank" rel="noreferrer">
               status page
             </a>{' '}
-            for known outages.
+            for known outages. If your browser is old, try updating to a recent version.
           </p>
           <Flex alignContent={{ default: 'alignContentCenter' }} direction={{ default: 'column' }}>
             <FlexItem>
